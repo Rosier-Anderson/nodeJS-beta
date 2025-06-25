@@ -1,10 +1,14 @@
-const { error } = require("console");
 const path = require("path");
 const filePromises = require("fs").promises;
-
+const { v4: uuid } = require("uuid");
 const { format } = require("date-fns");
 console.log(format(new Date(), "yyyyMMdd\tHH:mm:ss"));
-console.log("hello");
+console.log(uuid());
+const logEvents = async (message) => {
+  // const dateTime =
+};
+// const { error } = require("console");
+
 // // console.log(path.dirname(__filename));
 // // console.log(path.extname(__filename));
 // console.log(path.basename(__filename));
