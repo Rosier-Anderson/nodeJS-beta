@@ -1,14 +1,20 @@
 {
   "name": "nodejs-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a Node.js project.",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch index.js"
+    "start": "node --watch index.js",
+    "dev": "nodemon index"
   },
   "keywords": [],
   "author": "Ives van Hoorne",
   "license": "MIT",
-  "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
