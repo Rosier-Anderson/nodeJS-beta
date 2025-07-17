@@ -11,7 +11,7 @@ app.use("subdir", express.static(path.join(__dirname, "/public")));
 //
 
 app.use("/", require("./routes/root"));
-
+app.use("/subdir", require("./routes/subdir"));
 app.all("/*splat", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {
