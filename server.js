@@ -3,14 +3,17 @@ const app = express();
 const path = require("path");
 const errorHandler = require("./middleware/errorHandler");
 const { logger } = require("./middleware/logEvents");
+const cors = cors();
 
 const PORT = process.env.PORT || 3500;
+app.use(cors());
 //
 //
 // serve static file
 app.use("/", express.static(path.join(__dirname, "/public")));
 app.use("/subdir", express.static(path.join(__dirname, "/public")));
 //
+
 app.use(logger);
 app.use("/", require("./routes/root"));
 app.use("/subdir", require("./routes/subdir"));
