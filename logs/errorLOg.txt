@@ -14,3 +14,15 @@
 2025-07-19	05:08:11	4df488ae-959e-415c-8a1e-8443e9b9f914	Error : Not allowed by CORS
 2025-07-19	05:08:19	7aaf0a04-fa82-4306-a829-1c31bf2a2b8b	Error : Not allowed by CORS
 2025-07-19	05:08:19	2b7c205c-3d87-41d1-bcc9-5ccfe0a48bd5	Error : Not allowed by CORS
+2025-07-20	19:19:40	74a5d8bb-a72b-44bc-9f1d-46e087ea393b	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:20:01	313dfdd3-45cd-4417-a984-331f3c565a05	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:20:39	eb107a96-96c1-40ac-bc80-1708f5913143	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:22:19	a0d58704-4ea1-425b-a433-20f4ea233b44	Error : Cannot set headers after they are sent to the client
+2025-07-20	19:26:58	b95cc2ce-adcf-4838-b9d7-a75d55781f0d	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:27:00	95006416-2057-457c-8740-129803076036	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:27:16	9447960b-f1da-412b-bf64-843ac0e8fdbd	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:27:30	3211bb5c-de18-4cca-b2a2-24719fc51e8b	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:28:21	93dd2b19-4bad-4b8b-93d2-1e3d62d17e72	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:29:30	6639c997-b590-4b97-ba5b-1970f7fb541a	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:29:59	62f4cff7-f897-4a59-8727-aeb970923ecf	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-20	19:30:00	b2f2db49-222a-4e34-96ee-1b00da71e58d	TypeError : Cannot read properties of undefined (reading 'firstName')

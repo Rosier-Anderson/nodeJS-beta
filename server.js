@@ -13,11 +13,17 @@ const PORT = process.env.PORT || 3500;
 app.use("/", express.static(path.join(__dirname, "/public")));
 app.use("/subdir", express.static(path.join(__dirname, "/public")));
 
+//
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+//
 app.use(cors(corsOptions));
 app.use(logger);
+//
 app.use("/", require("./routes/root"));
 app.use("/subdir", require("./routes/subdir"));
-
+app.use("/employees", require("./routes/api/employees"));
+//
 app.all("/*splat", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {
@@ -29,9 +35,6 @@ app.all("/*splat", (req, res) => {
   }
 });
 app.use(errorHandler);
-app.listen(PORT, (err) => {
-  if (err) {
-    console.log(err.stack);
-  }
+app.listen(PORT, () => {
   console.log(`Server running on Port ${PORT}`);
 });

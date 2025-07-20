@@ -1,9 +1,10 @@
 const express = require("express");
 const router = express.Router();
-const path = require("path");
-const data = {};
-data.employees = require("../../model/employees.json");
-
-router.get("/", (req, res) => {
-  res.json(data.employees);
-});
+const employeesController = require("../../controllers/employeesController");
+router.route("/")
+  .get(employeesController.getAllEmployees)
+  .post(employeesController.createNewEmployee)
+  .put(employeesController.updateEmployee)
+  .delete(employeesController.deleteEmployee);
+router.route("/:id").get(employeesController.getEmployeeById);
+module.exports = router;
