@@ -26,3 +26,9 @@
 2025-07-20	19:29:30	6639c997-b590-4b97-ba5b-1970f7fb541a	TypeError : Cannot read properties of undefined (reading 'firstName')
 2025-07-20	19:29:59	62f4cff7-f897-4a59-8727-aeb970923ecf	TypeError : Cannot read properties of undefined (reading 'firstName')
 2025-07-20	19:30:00	b2f2db49-222a-4e34-96ee-1b00da71e58d	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-21	20:33:27	7c6ed5c8-e96d-4e04-ac99-4c803f628bf5	TypeError : data.push is not a function
+2025-07-21	20:56:07	96f404d8-767e-446a-9fd5-481392c4e7e8	ReferenceError : setEmployeees is not defined
+2025-07-21	21:05:25	1ebdf257-3bb0-4dcb-988b-c544ba962ba8	RangeError : Maximum call stack size exceeded
+2025-07-21	21:19:31	953caf54-b0b1-43a2-9296-9b145bd1487d	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-21	21:35:19	d9dc49bf-34d3-4713-96e0-5e36663b2344	TypeError : Cannot read properties of undefined (reading 'firstName')
+2025-07-21	22:00:16	82ea35f3-d34a-4448-9839-2b0235fd4cd4	ReferenceError : setEmployeees is not defined
