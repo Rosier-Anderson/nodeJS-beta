@@ -5,32 +5,34 @@ const data = {
     return this.employees;
   },
 };
-let id = data.employees.at(-1)?.id;
+let id = data.employees.at(-1)?.id || 1;
 const getAllEmployees = (req, res) => {
   res.json(data.employees);
   console.log("get");
 };
 const createNewEmployee = (req, res) => {
-  if (!req.body.firstName || !req.body.lastName ) {
-    console.log("Must provide a firstName and a lastName");
-  } else if (!data.employees.includes(id)) {
-   
-    data.setEmployeees({
-      id: id++,
-      firstName: req.body.firstName,
-      lastName: req.body.lastName,
-    });
+  if (!req.body.firstname || !req.body.lastname) {
+    console.log("Must provide a firstname and a lastname");
   }
 
+  data.setEmployeees({
+    id: (id += 1),
+    firstName: req.body.firstname,
+    lastName: req.body.lastname,
+  });
+
   res.json(data.employees);
-  console.log("post");
 };
 const updateEmployee = (req, res) => {
-  res.json({
-    firstName: req.body.firstName,
-    lastName: req.body.lastName,
-  });
-  console.log(data.employees, "put");
+  // update the employee
+  let employeeId = req.body;
+  let selectedEmployee = data.employees.at(employeeId).id;
+  if (!employeeId) {
+    console.log("Must provide the employee ID");
+  }
+  console.log(employeeId, "selected");
+  res.json();
+  console.log("put");
 };
 const deleteEmployee = (req, res) => {
   res.json({
