@@ -1,2 +1,16 @@
 2025-07-23	09:54:26	ff65e1e1-d69e-4f31-8cde-2a370a767e1e	TypeError : Cannot read properties of undefined (reading 'id')
 2025-07-23	09:55:18	7162003c-52b4-41ae-aa0d-15ff42a7cddd	TypeError : Cannot read properties of undefined (reading 'id')
+2025-07-24	18:53:10	bc491a86-43d9-4da4-8a27-c658baea972c	TypeError : data.employees.find is not a function
+2025-07-24	19:04:21	c403b81d-8665-4d97-810b-590ce122e40a	TypeError : newEmployee is not iterable
+2025-07-24	19:05:13	65dcfadf-86f3-487f-aa31-790b68d0424a	TypeError : newEmployee is not iterable
+2025-07-24	19:05:14	f2ada269-c3e7-4f51-aeb6-d7100d14d8e4	TypeError : newEmployee is not iterable
+2025-07-24	19:05:19	a7f9a477-b465-44ed-8f43-9e98965b831b	TypeError : newEmployee is not iterable
+2025-07-24	19:05:20	44b0aa38-7d1a-4764-9ece-7475c0b4499e	TypeError : newEmployee is not iterable
+2025-07-24	19:08:18	da087e76-2ed1-4b2e-9a01-4135e441cd6e	TypeError : newEmployee is not iterable
+2025-07-24	19:08:21	376d05a9-d5a6-40c7-ac07-aa528a6a20c5	TypeError : newEmployee is not iterable
+2025-07-24	19:28:00	8fed1853-f975-45c3-80a6-78c8def7b7a5	TypeError : data.employees.push is not a function
+2025-07-24	19:28:01	0d47ba99-8a84-43ab-9fb9-c16ade27a288	TypeError : data.employees.push is not a function
+2025-07-24	19:35:46	92d58821-67b7-4430-af24-576fb6eadb72	TypeError : undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+2025-07-24	19:35:46	35729bab-996b-46bb-912a-372a5c2996af	TypeError : undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+2025-07-24	19:35:51	2ac13974-1ab5-4879-81a0-69f5df82cdc9	TypeError : undefined is not iterable (cannot read property Symbol(Symbol.iterator))
+2025-07-24	19:40:21	977c1f5c-dd85-4602-9d1f-2d646a11752e	TypeError : data.employees is not iterable
