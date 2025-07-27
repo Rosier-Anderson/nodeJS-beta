@@ -14,3 +14,51 @@
 2025-07-24	19:35:46	35729bab-996b-46bb-912a-372a5c2996af	TypeError : undefined is not iterable (cannot read property Symbol(Symbol.iterator))
 2025-07-24	19:35:51	2ac13974-1ab5-4879-81a0-69f5df82cdc9	TypeError : undefined is not iterable (cannot read property Symbol(Symbol.iterator))
 2025-07-24	19:40:21	977c1f5c-dd85-4602-9d1f-2d646a11752e	TypeError : data.employees is not iterable
+2025-07-25	03:53:36	082cdd6c-98d6-462a-bb75-4f0bfcdd6f4a	TypeError : data.employees.at is not a function
+2025-07-25	03:53:48	bd7bb9a3-db4a-428e-bd17-c080e16bec2d	TypeError : data.employees.at is not a function
+2025-07-25	03:55:50	92eb6975-dab8-41c6-9d04-94f506a71dba	ReferenceError : employees is not defined
+2025-07-25	03:56:25	d819c370-be41-4d6e-90e5-404a55f36a3d	TypeError : data.at is not a function
+2025-07-25	04:15:10	0899026c-0a72-4abf-9ba3-1e7549ae7acf	TypeError : Cannot convert undefined or null to object
+2025-07-25	04:15:57	2a9ecb02-44cc-4453-803a-b086c3366eee	TypeError : Cannot convert undefined or null to object
+2025-07-25	04:16:10	e55d75b4-7e09-442d-a82e-e8be8dba2451	ReferenceError : newEmployeeID is not defined
+2025-07-25	04:17:14	fee61e1c-39bd-415a-a7cf-cb519a9ebf70	ReferenceError : newEmployeeID is not defined
+2025-07-25	04:21:08	b65cba31-fe27-43d2-973c-07c27c8a3c68	TypeError : data.employees.map is not a function
+2025-07-25	04:26:28	30e5c3ab-7db3-4e25-8089-55155b0f240b	TypeError : data.employees.map is not a function
+2025-07-25	04:26:31	7dab09b7-25cf-4cc7-b052-1694ae027379	TypeError : data.employees.map is not a function
+2025-07-25	04:26:32	eb6da7a7-e6be-4c29-9164-b827d9c30609	TypeError : data.employees.map is not a function
+2025-07-25	04:26:39	2777113e-ecaa-4092-87a6-3bd9a756324d	TypeError : data.employees.map is not a function
+2025-07-25	04:26:50	7df9f574-935e-4ded-913c-272b090f1077	TypeError : data.employees.map is not a function
+2025-07-25	04:26:56	6b96defc-c03d-44af-a6d6-3407a1e30dc1	TypeError : data.employees.map is not a function
+2025-07-25	04:26:57	fa564a3a-f209-4731-8d5a-5fbf8b5142c8	TypeError : data.employees.map is not a function
+2025-07-25	04:33:02	f8f44639-dc52-48e0-931d-03c0bc6b8601	TypeError : data.employees.map is not a function
+2025-07-25	04:34:20	a40cc4d7-5682-43e8-a39f-0e26041cb9ef	ReferenceError : s is not defined
+2025-07-25	04:34:36	192d058b-eb8c-4d14-b4ae-cb00320e7391	ReferenceError : newEmployee is not defined
+2025-07-25	06:11:42	9da0b0a0-b460-4984-8017-ed58c48973b4	TypeError : Spread syntax requires ...iterable[Symbol.iterator] to be a function
+2025-07-25	06:15:33	d424ae35-c355-4a70-bad8-6252369a93f7	TypeError : Cannot read properties of undefined (reading 'map')
+2025-07-25	06:16:10	0e7f2c52-adea-4f34-87c7-174e3d7531a4	TypeError : Cannot read properties of undefined (reading 'map')
+2025-07-25	06:20:07	5464973f-f97a-4eeb-bcf4-1574a32fadfb	TypeError : newEmployee is not iterable
+2025-07-25	06:20:22	c2d1d039-d19b-4d81-86eb-95e6ae41e30d	TypeError : Cannot read properties of undefined (reading 'map')
+2025-07-25	06:20:56	f1a17470-3743-4228-affb-2e23898207fa	TypeError : Cannot read properties of undefined (reading 'map')
+2025-07-25	06:21:41	02f72ddc-b740-4c90-ae3a-d624b0f2fac3	TypeError : Cannot read properties of undefined (reading 'map')
+2025-07-25	06:21:59	20337a8e-917a-4976-a615-58cb15608c40	TypeError : Cannot read properties of undefined (reading 'map')
+2025-07-25	06:22:56	f61f9da5-7b40-4c12-bc9c-531efcaacc03	TypeError : Cannot read properties of undefined (reading 'map')
+2025-07-25	06:22:57	1b722294-0a87-48ba-9b59-2f97f2095481	TypeError : Cannot read properties of undefined (reading 'map')
+2025-07-25	06:24:24	b80582f5-5fcb-46fd-8ee6-119cafb33ea6	TypeError : employeeArray.map is not a function
+2025-07-25	06:52:13	cb73b26b-5b86-4329-bd0b-f4e7d3ffbbe7	SyntaxError : Expected property name or '}' in JSON at position 5
+2025-07-25	06:52:21	dd16ed53-9281-4b2e-8f92-c216265cb070	SyntaxError : Expected property name or '}' in JSON at position 5
+2025-07-25	07:04:17	5d7c20a7-8d60-42ac-8c81-901fa5d74994	ReferenceError : firstname is not defined
+2025-07-25	08:00:52	c4831918-4ce0-4964-9cfb-06afa47989cc	TypeError : Cannot read properties of undefined (reading 'id')
+2025-07-25	08:48:09	8f8be0e1-51ff-4c5e-99e7-7bf87baed292	SyntaxError : Expected double-quoted property name in JSON at position 23
+2025-07-25	08:48:25	3493bf85-ad5b-4e46-a852-ade676f8e2fd	ReferenceError : index is not defined
+2025-07-27	09:21:23	c96054b4-59b3-4238-899b-60e6fd323604	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:21:55	23630fd4-73f8-4281-9f47-d8bd252c7f17	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:22:08	5437adab-a582-438a-ba0a-2c1ed028dbfd	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:22:17	504b943c-93c6-474c-b225-6680ef486e56	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:22:31	ef3dfd92-e598-4b73-8b50-ff4786c63d72	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:23:02	9d0090e3-70dd-4288-9fae-47e88996b247	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:23:14	3e405fdd-1785-4ee1-a2d9-797d6323724f	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:23:14	f560d977-bdf5-4bf3-972a-98cdbb284aa2	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:23:57	f14643ce-6487-4f41-9579-689ce7e7a7b8	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:25:08	d100cb6c-fa89-498e-bee9-9f3c6245d717	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:27:10	0da80b73-cec2-4352-be26-aa572ef9cce5	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-07-27	09:29:41	d624977f-43cc-4af8-860e-a168874be4f7	SyntaxError : Expected property name or '}' in JSON at position 1

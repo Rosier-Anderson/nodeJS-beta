@@ -7,7 +7,6 @@ const whiteList = [
 const corsOptions = {
   origin: (origin, callback) => {
     if (whiteList.includes(origin)) {
-      console.log(` CORS: ${origin}`);
       callback(null, true);
     } else {
       console.warn(`Blocked by CORS: ${origin}`);
