@@ -62,3 +62,5 @@
 2025-07-27	09:25:08	d100cb6c-fa89-498e-bee9-9f3c6245d717	SyntaxError : Expected property name or '}' in JSON at position 1
 2025-07-27	09:27:10	0da80b73-cec2-4352-be26-aa572ef9cce5	SyntaxError : Expected property name or '}' in JSON at position 1
 2025-07-27	09:29:41	d624977f-43cc-4af8-860e-a168874be4f7	SyntaxError : Expected property name or '}' in JSON at position 1
+2025-08-02	06:14:15	ad69294e-e432-4c31-afb0-12ad1d894731	Error : Cannot set headers after they are sent to the client
+2025-08-02	06:14:16	45e6465c-a030-4fd1-9e93-1809cb9aff59	Error : Cannot set headers after they are sent to the client

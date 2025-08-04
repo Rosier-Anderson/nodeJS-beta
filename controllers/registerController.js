@@ -7,7 +7,7 @@ const usersDB = {
 const fsPromises = require("fs").promises;
 const path = require("path");
 const bcrypt = require("bcrypt");
-const { stringify } = require("querystring");
+
 
 //handleNewUser
 const handleNewUser = async (req, res) => {
