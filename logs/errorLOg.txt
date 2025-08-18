@@ -1,66 +1,119 @@
-2025-07-23	09:54:26	ff65e1e1-d69e-4f31-8cde-2a370a767e1e	TypeError : Cannot read properties of undefined (reading 'id')
-2025-07-23	09:55:18	7162003c-52b4-41ae-aa0d-15ff42a7cddd	TypeError : Cannot read properties of undefined (reading 'id')
-2025-07-24	18:53:10	bc491a86-43d9-4da4-8a27-c658baea972c	TypeError : data.employees.find is not a function
-2025-07-24	19:04:21	c403b81d-8665-4d97-810b-590ce122e40a	TypeError : newEmployee is not iterable
-2025-07-24	19:05:13	65dcfadf-86f3-487f-aa31-790b68d0424a	TypeError : newEmployee is not iterable
-2025-07-24	19:05:14	f2ada269-c3e7-4f51-aeb6-d7100d14d8e4	TypeError : newEmployee is not iterable
-2025-07-24	19:05:19	a7f9a477-b465-44ed-8f43-9e98965b831b	TypeError : newEmployee is not iterable
-2025-07-24	19:05:20	44b0aa38-7d1a-4764-9ece-7475c0b4499e	TypeError : newEmployee is not iterable
-2025-07-24	19:08:18	da087e76-2ed1-4b2e-9a01-4135e441cd6e	TypeError : newEmployee is not iterable
-2025-07-24	19:08:21	376d05a9-d5a6-40c7-ac07-aa528a6a20c5	TypeError : newEmployee is not iterable
-2025-07-24	19:28:00	8fed1853-f975-45c3-80a6-78c8def7b7a5	TypeError : data.employees.push is not a function
-2025-07-24	19:28:01	0d47ba99-8a84-43ab-9fb9-c16ade27a288	TypeError : data.employees.push is not a function
-2025-07-24	19:35:46	92d58821-67b7-4430-af24-576fb6eadb72	TypeError : undefined is not iterable (cannot read property Symbol(Symbol.iterator))
-2025-07-24	19:35:46	35729bab-996b-46bb-912a-372a5c2996af	TypeError : undefined is not iterable (cannot read property Symbol(Symbol.iterator))
-2025-07-24	19:35:51	2ac13974-1ab5-4879-81a0-69f5df82cdc9	TypeError : undefined is not iterable (cannot read property Symbol(Symbol.iterator))
-2025-07-24	19:40:21	977c1f5c-dd85-4602-9d1f-2d646a11752e	TypeError : data.employees is not iterable
-2025-07-25	03:53:36	082cdd6c-98d6-462a-bb75-4f0bfcdd6f4a	TypeError : data.employees.at is not a function
-2025-07-25	03:53:48	bd7bb9a3-db4a-428e-bd17-c080e16bec2d	TypeError : data.employees.at is not a function
-2025-07-25	03:55:50	92eb6975-dab8-41c6-9d04-94f506a71dba	ReferenceError : employees is not defined
-2025-07-25	03:56:25	d819c370-be41-4d6e-90e5-404a55f36a3d	TypeError : data.at is not a function
-2025-07-25	04:15:10	0899026c-0a72-4abf-9ba3-1e7549ae7acf	TypeError : Cannot convert undefined or null to object
-2025-07-25	04:15:57	2a9ecb02-44cc-4453-803a-b086c3366eee	TypeError : Cannot convert undefined or null to object
-2025-07-25	04:16:10	e55d75b4-7e09-442d-a82e-e8be8dba2451	ReferenceError : newEmployeeID is not defined
-2025-07-25	04:17:14	fee61e1c-39bd-415a-a7cf-cb519a9ebf70	ReferenceError : newEmployeeID is not defined
-2025-07-25	04:21:08	b65cba31-fe27-43d2-973c-07c27c8a3c68	TypeError : data.employees.map is not a function
-2025-07-25	04:26:28	30e5c3ab-7db3-4e25-8089-55155b0f240b	TypeError : data.employees.map is not a function
-2025-07-25	04:26:31	7dab09b7-25cf-4cc7-b052-1694ae027379	TypeError : data.employees.map is not a function
-2025-07-25	04:26:32	eb6da7a7-e6be-4c29-9164-b827d9c30609	TypeError : data.employees.map is not a function
-2025-07-25	04:26:39	2777113e-ecaa-4092-87a6-3bd9a756324d	TypeError : data.employees.map is not a function
-2025-07-25	04:26:50	7df9f574-935e-4ded-913c-272b090f1077	TypeError : data.employees.map is not a function
-2025-07-25	04:26:56	6b96defc-c03d-44af-a6d6-3407a1e30dc1	TypeError : data.employees.map is not a function
-2025-07-25	04:26:57	fa564a3a-f209-4731-8d5a-5fbf8b5142c8	TypeError : data.employees.map is not a function
-2025-07-25	04:33:02	f8f44639-dc52-48e0-931d-03c0bc6b8601	TypeError : data.employees.map is not a function
-2025-07-25	04:34:20	a40cc4d7-5682-43e8-a39f-0e26041cb9ef	ReferenceError : s is not defined
-2025-07-25	04:34:36	192d058b-eb8c-4d14-b4ae-cb00320e7391	ReferenceError : newEmployee is not defined
-2025-07-25	06:11:42	9da0b0a0-b460-4984-8017-ed58c48973b4	TypeError : Spread syntax requires ...iterable[Symbol.iterator] to be a function
-2025-07-25	06:15:33	d424ae35-c355-4a70-bad8-6252369a93f7	TypeError : Cannot read properties of undefined (reading 'map')
-2025-07-25	06:16:10	0e7f2c52-adea-4f34-87c7-174e3d7531a4	TypeError : Cannot read properties of undefined (reading 'map')
-2025-07-25	06:20:07	5464973f-f97a-4eeb-bcf4-1574a32fadfb	TypeError : newEmployee is not iterable
-2025-07-25	06:20:22	c2d1d039-d19b-4d81-86eb-95e6ae41e30d	TypeError : Cannot read properties of undefined (reading 'map')
-2025-07-25	06:20:56	f1a17470-3743-4228-affb-2e23898207fa	TypeError : Cannot read properties of undefined (reading 'map')
-2025-07-25	06:21:41	02f72ddc-b740-4c90-ae3a-d624b0f2fac3	TypeError : Cannot read properties of undefined (reading 'map')
-2025-07-25	06:21:59	20337a8e-917a-4976-a615-58cb15608c40	TypeError : Cannot read properties of undefined (reading 'map')
-2025-07-25	06:22:56	f61f9da5-7b40-4c12-bc9c-531efcaacc03	TypeError : Cannot read properties of undefined (reading 'map')
-2025-07-25	06:22:57	1b722294-0a87-48ba-9b59-2f97f2095481	TypeError : Cannot read properties of undefined (reading 'map')
-2025-07-25	06:24:24	b80582f5-5fcb-46fd-8ee6-119cafb33ea6	TypeError : employeeArray.map is not a function
-2025-07-25	06:52:13	cb73b26b-5b86-4329-bd0b-f4e7d3ffbbe7	SyntaxError : Expected property name or '}' in JSON at position 5
-2025-07-25	06:52:21	dd16ed53-9281-4b2e-8f92-c216265cb070	SyntaxError : Expected property name or '}' in JSON at position 5
-2025-07-25	07:04:17	5d7c20a7-8d60-42ac-8c81-901fa5d74994	ReferenceError : firstname is not defined
-2025-07-25	08:00:52	c4831918-4ce0-4964-9cfb-06afa47989cc	TypeError : Cannot read properties of undefined (reading 'id')
-2025-07-25	08:48:09	8f8be0e1-51ff-4c5e-99e7-7bf87baed292	SyntaxError : Expected double-quoted property name in JSON at position 23
-2025-07-25	08:48:25	3493bf85-ad5b-4e46-a852-ade676f8e2fd	ReferenceError : index is not defined
-2025-07-27	09:21:23	c96054b4-59b3-4238-899b-60e6fd323604	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:21:55	23630fd4-73f8-4281-9f47-d8bd252c7f17	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:22:08	5437adab-a582-438a-ba0a-2c1ed028dbfd	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:22:17	504b943c-93c6-474c-b225-6680ef486e56	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:22:31	ef3dfd92-e598-4b73-8b50-ff4786c63d72	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:23:02	9d0090e3-70dd-4288-9fae-47e88996b247	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:23:14	3e405fdd-1785-4ee1-a2d9-797d6323724f	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:23:14	f560d977-bdf5-4bf3-972a-98cdbb284aa2	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:23:57	f14643ce-6487-4f41-9579-689ce7e7a7b8	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:25:08	d100cb6c-fa89-498e-bee9-9f3c6245d717	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:27:10	0da80b73-cec2-4352-be26-aa572ef9cce5	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-07-27	09:29:41	d624977f-43cc-4af8-860e-a168874be4f7	SyntaxError : Expected property name or '}' in JSON at position 1
-2025-08-02	06:14:15	ad69294e-e432-4c31-afb0-12ad1d894731	Error : Cannot set headers after they are sent to the client
-2025-08-02	06:14:16	45e6465c-a030-4fd1-9e93-1809cb9aff59	Error : Cannot set headers after they are sent to the client
+
+2025-08-18	09:46:11	685b7fbf-7665-4481-9e49-ca8626b0ca57	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	09:52:26	7b2f4468-8b7b-45cd-9f30-80dff5677999	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	09:55:03	99faf9f5-af43-4e59-a2b4-3968a328c478	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	09:55:04	40abdf74-a612-4c5f-a798-83d4e269db3f	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	09:55:07	7eb22728-075a-4e69-a430-4add3dee73f8	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	09:55:21	f3d64753-ba32-4a78-8d6c-bf0fc29696a3	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	09:55:31	70971501-0d0d-44a4-833a-9bf8bca57fe3	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	10:40:12	54ebae46-b183-492c-bb1e-084b51cc8625	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:40:17	599e8afa-7232-425c-a064-1c1178757e3a	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:40:28	2d495348-7371-4275-bfc5-28041f01e18a	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:41:15	ad9de684-c979-4b9c-b6cc-dfab9a03db91	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:41:17	9ef5ba69-4443-4fa4-9f0d-70805d23a362	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:41:20	cbb9263e-b6c6-417a-b51a-461b8155a50b	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:41:44	43d3e62d-e65f-44d6-b439-2103b262aad2	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:41:45	76c9e6f8-44e4-4554-a71b-916809944cda	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:41:49	35e9b200-2cf2-48fc-8223-0e39332d6210	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:42:17	a3d40140-f219-489b-8295-147d0da2d2e8	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:42:18	e0f78565-7f6f-4949-a0a6-b33b1a328104	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:42:18	ff1924d4-d691-4f2b-9bf1-c44f623d0bbd	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:42:23	38a16591-a9ca-4f2c-b34d-e1ae99ee2379	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:42:27	05c3683e-7011-4e31-b2e8-fdeba0e8a27a	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:43:05	1eaa3543-b0f3-49ab-9d23-63e5a729194b	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:43:06	fc8c690b-fb51-42af-9270-dcd449da06f8	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:43:06	b4a66573-9736-41cc-8586-40e180f8c6df	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:43:06	d83f4f41-c37e-463b-bdf2-bac62ac743b7	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:43:52	faf57174-557b-45e4-b69c-4f8ce0e83a93	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:43:52	f2b802bc-6563-433f-9165-0565c810ef3e	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:43:53	a5ee60d5-009f-4e60-9a66-b6b324745fe6	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:43:56	4f29ef76-b4f5-4cc8-ad43-ec3d938c77a1	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:45:22	0a289c9f-280e-4360-a07b-5da738ec507a	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:45:26	62ebb6b8-9a7b-48dd-ae30-9ef9c29c9dbc	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:45:27	9f38fa13-b06a-4418-9295-2e56281b883c	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:45:28	391e9b2d-bc4e-4113-bb2a-e4805ac41a10	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:46:37	a4b20442-a774-4924-8fbf-3c4ff6487ece	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:49:53	37b9d70e-9efc-4951-95fd-9fb651d444b2	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	10:50:47	fc110271-4574-49af-bb80-55e5d27ec639	TypeError : res.cookies is not a function
+2025-08-18	10:51:21	a7ae0609-fb23-4e55-b652-3575177d28db	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:00:57	5a702e83-0557-491c-8a80-28b24765b66f	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:01:00	d811ea50-ea84-41bc-91e4-268b16b0ab2e	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:01:21	09170439-fb8f-45f4-9ab4-2a4a6d4df620	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:01:25	738875b5-7f02-4d67-b7ab-2d05325774a5	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:01:26	8a3cf1b7-6027-43db-a42b-9db7600e8699	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:01:27	7c531952-ce59-4fe2-af46-1d993743e940	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:01:37	aadc56f2-5282-4617-94df-8d62845c9a1e	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:02:00	5b3d8d0b-1589-49d6-854c-c9a291221665	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:04:51	4805fe68-2a86-4811-93fb-9f495f706a3e	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:04:53	6f874eca-32cb-469c-bf3e-c57af9cab9fb	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:04:58	6aa59074-1209-4f80-a3fe-c6d6b3826780	TypeError : Cannot read properties of undefined (reading 'jwt')
+2025-08-18	11:06:29	3ce40171-2f29-48ae-823c-e6e0864fa0e8	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:06:30	5291e721-1145-4369-b85e-bad44c11b15d	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:06:30	537f8f5b-747e-4175-b61f-b946fd34092a	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:06:33	9275ab2f-e3bd-46db-b9ac-0036d3a79610	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:06:46	4232e849-cfaa-4598-8124-ab7338dd787d	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:06:58	79d73025-fcdd-4e55-b025-6caaf1b40497	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:07:03	6ac7bc5c-b965-43b8-b7c0-cfd6c9b8b23e	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:07:06	1808c396-1c7c-46bb-9e12-c26f555a83b1	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:07:06	c17bd5d2-eb1a-4130-ad56-470e660f310e	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:07:06	62f82ad0-0b04-46a8-b1d3-50437f9c41e4	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:07:44	dd9deeb9-4a2c-467d-8431-b7f277a303ab	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:08:21	9fe9b46f-c2f5-4436-b741-f62426d21cb8	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:11:35	18f3e531-8414-41ac-95be-50a02f0d2f8b	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:12:48	7b824c4e-7904-42a2-8607-7eb8f691d3db	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:13:31	cf01ed3f-0bab-492c-a0a1-02460a21f1ef	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:13:34	62459344-b4f9-485d-92a9-c5fd4ba51720	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:15:00	849f8f1d-a41f-4464-b92d-c7af6be94b20	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:23:56	a8fbace9-8bfa-4a96-8ef7-d86c82e8770b	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:24:42	0149a31b-85f3-452b-aaae-0fcfab76af92	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:24:59	c83692b8-5e74-4e06-be0c-655804ba35fa	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:28:53	5dd6d6cd-de63-43b2-b10a-5019baa34c6a	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:28:57	11a9eb7f-8c3b-494d-92e3-dd364d81d3b1	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:46:25	4f803786-c788-4f04-a32c-0c177266069a	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:46:30	23a3d5d3-6dae-4513-a00b-0b7b6e1f7a51	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:47:13	f64fc7b6-4e1a-4ac7-b20e-f27522894ada	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:47:25	45841786-26cb-46ce-9cbe-accdfe129008	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:47:25	faa7d7dc-a739-4d50-8e81-5479806b74ba	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:49:09	13a49ba5-87ec-4327-9d3d-18ad2fbc56eb	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:49:10	9011738c-a135-48a6-b8da-0fb84dd5cec4	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:49:10	a078db9b-7b4c-4a55-8cf4-66cb56277932	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:49:12	1089ca8e-d4e6-4fda-ac93-001a07995206	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:49:23	89e44d21-ca56-4294-80a1-de858cf86fb0	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:52:18	4e49d46c-66bb-4c7f-8f5b-07cc85055610	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:52:43	da8eff54-2aef-4041-b8c8-050f8e76ee61	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:52:54	23784211-4a3b-4586-ba48-fa94371598f0	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:53:56	1786ede6-66c3-43a3-94fa-0e2e413b14fa	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:53:59	f5bf1ebc-6b0e-45ed-91f2-a1d74ae8d618	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:53:59	69339532-4b6e-4b01-83fc-446f9cb4c2ac	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:53:59	ef4f8206-eedd-481b-903f-014211a5c647	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:54:00	d3cda83a-a432-4f02-8eba-07bf83dc17f4	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:54:00	a3324a8b-586a-46da-995d-c4a1e94a7257	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:54:00	5bf3b73a-1d10-4fd6-bf4f-483de2afa948	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:56:50	c8b89f79-d1ba-4415-9edf-90c4cf5051cc	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:56:51	da293b53-3c3c-4f6b-8bde-09817dd2a6f9	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:57:04	e6a5ee64-ea44-4467-a34d-98eb9a8c1158	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:57:05	5a4346de-751e-411d-8e02-4bc250962883	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:57:05	98264e89-944f-4ef3-bb05-7a43e1fb6131	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:57:05	900957b3-933f-4e75-85e9-2bee502106d5	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:57:08	7d57beb0-49bc-4573-8475-4b75799a3952	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:57:13	3dbef116-a5b7-4f3d-b51d-f6613f05d47a	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:57:22	3df363c8-6aa5-4215-8673-f8ea9c57bcce	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:57:22	1aad46eb-bb9a-44d6-a60f-547a59f6d961	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:15	2b036f10-7412-4b7f-b2ed-a75edca2587d	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:16	e78a653e-4c3c-4235-b8de-00d5a5d135a5	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:16	b2616731-cd83-44c0-9932-248789dc330f	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:16	1e682e2b-24f3-414f-9eaa-2fbf2e055177	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:17	c61acade-da8a-4f6b-b433-6c8f635fbf23	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:17	e662311d-7ec3-4cd9-a1f9-a92282cb4f6f	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:44	9f9e1be5-2a70-489e-b2b3-549343d7f173	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:44	78c36ace-482a-43e7-af49-320d30864885	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:44	7f8d7780-a8e2-4e70-8b62-8cf4ce9efe65	Error : Cannot set headers after they are sent to the client
+2025-08-18	11:58:45	eff1cde4-3737-4b05-a3e8-8e0eabca1e0f	Error : Cannot set headers after they are sent to the client
+2025-08-18	12:28:09	1c4068ee-273a-45a2-b22b-acba933438a7	TypeError : res.clearCookies is not a function
+2025-08-18	12:28:30	d7840a5a-eeb0-4989-bf3e-73232c02e0c7	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	12:29:51	7f546180-e4ac-4405-b556-a939ea7e64be	ReferenceError : fsPromises is not defined
+2025-08-18	12:29:56	64561fbd-039c-435b-8ab6-da77e07ec474	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	12:30:13	89cb1e9d-ee37-4ae8-8d7f-cb5df64f6c96	ReferenceError : fsPromises is not defined
+2025-08-18	12:31:31	1775d9ff-dbbe-4cf0-ba90-3d42d8d67a00	ReferenceError : usersDB is not defined
+2025-08-18	12:31:32	fbadb58e-21d7-4aaf-949d-94e05fde7591	TypeError : Cannot read properties of undefined (reading 'username')
+2025-08-18	12:32:01	84f35ac5-fa49-4b10-adab-505785d127cb	ReferenceError : usersDB is not defined

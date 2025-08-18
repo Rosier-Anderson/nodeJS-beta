@@ -5,6 +5,7 @@ const errorHandler = require("./middleware/errorHandler");
 const { logger } = require("./middleware/logEvents");
 const corsOptions = require("./config/corsOptions");
 const cors = require("cors");
+const cookieParser = require("cookie-parser");
 const PORT = process.env.PORT || 3500;
 
 //
@@ -16,6 +17,7 @@ app.use("/subdir", express.static(path.join(__dirname, "/public")));
 //
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.use(cookieParser())
 //
 app.use(cors(corsOptions));
 app.use(logger);
@@ -23,8 +25,12 @@ app.use(logger);
 app.use("/", require("./routes/root"));
 app.use("/subdir", require("./routes/subdir"));
 app.use("/auth", require("./routes/auth"));
+app.use("/refresh", require("./routes/refresh"))
 app.use("/register", require("./routes/register"));
+app.use("/logout", require("./routes/logout"))
 app.use("/employees", require("./routes/api/employees"));
+
+
 //
 app.all("/*splat", (req, res) => {
   res.status(404);
